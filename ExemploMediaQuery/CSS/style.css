@@ -1,0 +1,76 @@
+.container{
+  border: 2px solid rgb(0, 0, 0);
+}
+.quadrado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  width:50vw;
+  height:150px;
+}
+
+/* Inicio do media 576 */
+@media (min-width: 576px){
+  .container {
+    width: 100vw;
+  }
+  .quadrado{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(226, 43, 43)
+  }
+}
+/* Fim do media 576 */
+
+/* Inicio do media 768 */
+@media (min-width: 768px){
+  .container {
+    width: 100vw;
+  }
+  .quadrado{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(43, 113, 226)
+  }
+}
+/* Fim do media 768 */
+
+/* Inicio do media 992 */
+@media (min-width: 992px){
+  .container {
+    width: 100vw;
+  }
+  .quadrado{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(226, 43, 189)
+  }
+}
+/* Fim do media 992 */
+
+/* Inicio do media 1200 */
+@media (min-width: 1200px){
+  .container {
+    width: 100vw;
+  }
+  .quadrado{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(43, 226, 98)
+  }
+}
+/* Fim do media 1200 */
+
+/* Inicio do media 1400 */
+@media (min-width: 1400px){
+  .container {
+    width: 100vw;
+  }
+  .quadrado{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(226, 171, 43)
+  }
+}
+/* Fim do media 1400 */
